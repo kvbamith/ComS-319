@@ -1,0 +1,15 @@
+{
+  "name": "fall2020-lab02-samplecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addNumbers.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

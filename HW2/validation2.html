@@ -1,0 +1,35 @@
+<html> 
+<head>
+<meta charset = "utf-8"/>
+<script src="./validation2.js"></script>
+</head>
+
+<body>
+<h1>
+  Validation: Page 2
+</h1>
+<form id="contactForm" action="" >
+  <fieldset>
+    <legend>Contact Details</legend>
+    <p id="Email">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="text" placeholder="example@mail.com"/>
+    </p>
+    <p id="Phone">
+      <label for="phone">Phone Number</label> 
+      <input id="phone" name="phone" type="text" placeholder="XXX-XXX-XXXX"/>
+      
+    </p>
+    <p id="Address">
+            <label for="address">Address</label> 
+            <input id="address" name="address" type="text" placeholder="city,state"/>
+            
+    </p>
+    <p>
+      <input onCLick="validate()" type="button" id="submit" name="submit" value="Submit"/>
+      <input type="reset" value="clear" />
+    </p>
+  </fieldset>
+</form>
+</body>
+</html>

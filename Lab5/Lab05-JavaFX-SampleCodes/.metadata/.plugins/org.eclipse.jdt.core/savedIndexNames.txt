@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/kvbamith/Desktop/Impstuff/SE319/Lab5/Lab05-JavaFX-SampleCodes/.metadata/.plugins/org.eclipse.jdt.core
+2025561483.index
+564439505.index

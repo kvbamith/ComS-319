@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Scoreboard</title>
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+<h1>Thanks for playing!</h1>
+
+<h2>Your score is: <p id = "ob">0</p></h2>
+
+<h2>Your highest score is: <p id = "hh">0</p></h2>
+
+
+
+<script>
+// Get the variable
+// Get the variable
+var myData = localStorage.getItem('score');
+
+var Hscore=localStorage.getItem('hscore');
+
+
+//var Hscore=0;
+	if(Hscore==0){
+		localStorage.setItem('hscore', myData);
+		}
+		else if (myData > Hscore){
+		Hscore = myData;
+		localStorage.setItem('hscore', myData);
+		//document.getElementById("hh").innerHTML = Hscore;
+		}
+		
+	//return Hscore;
+
+document.getElementById("ob").innerHTML = myData;
+document.getElementById("hh").innerHTML = Hscore;
+</script>
+</body>
+</html>
